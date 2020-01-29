@@ -1,0 +1,27 @@
+@import "media";
+body
+    font-size: 15px
+    @media (max-width: $media-phone)
+        font-size: 10px
+
+.lato
+    font-family: 'Lato', sans-serif
+.cuprum
+    font-family: 'Cuprum', sans-serif
+.bold
+    font-weight: 700
+
+.mobile-hidden
+    @media (max-width: $media-phone)
+        display: none
+        
+.upper
+    text-transform: uppercase
+    
+    
+@import "normalize";
+@import "wrapper";
+@import "container";
+@import "header";
+@import "footer";
+@import "logistic";

@@ -1,0 +1,75 @@
+@import "media";
+.top
+    &--wrapper
+        display: flex
+        justify-content: space-between
+        padding: 20px 0 10px
+        align-items: center
+        font-family: 'Lato', sans-serif
+        @media (max-width: $media-pc)
+            justify-content: space-around
+            flex-wrap: wrap
+        @media (max-width: $media-phone)
+            flex-direction: column
+        &__logo
+            @media (max-width: $media-phone)
+                margin-bottom: 10px
+        &__text
+            font-size: 0.8667em
+            margin: 0
+            color: #313338
+            @media (max-width: $media-phone)
+                margin-bottom: 10px
+        &__icon 
+            margin-right: 3px
+            color: #b95a4d
+        &__phone
+            font-size: 1.1333em
+            color: #325294
+            margin-left: 100px
+            @media (max-width: $media-pc)
+                margin-left: 0
+            @media (max-width: $media-phone)
+                margin-bottom: 10px
+        &__button
+            font-size: 1em
+            color: #325294
+            border: 2px solid #325294
+            height: 50px
+            width: 192px
+            background: transparent
+            letter-spacing: 0.15em
+    &--line
+        width: 100%
+        height: 1px
+        background: #eef1f7
+        @media (max-width: $media-phone)
+            display: none
+    &--menu
+        padding: 22px 152px 30px
+        display: flex
+        justify-content: space-between
+        font-family: 'Cuprum', sans-serif
+        font-weight: 700
+        @media (max-width: $media-pc)
+            padding: 20px 0
+        @media (max-width: $media-phone)
+            flex-direction: column
+            justify-content: space-around
+        &__link
+            color: #325294
+            font-size: 1em
+            letter-spacing: 0.15em
+            text-transform: uppercase
+            @media (max-width: $media-phone)
+                margin-bottom: 10px
+                text-align: center
+            &_active
+                color: #b95a4d
+                cursor: default
+.header
+    &__title
+        font-size: 3em
+        text-shadow: 0 0 6px rgba(0, 0, 0, 0.6)
+        letter-spacing: 0.15em
+        color: #ffffff

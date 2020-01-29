@@ -1,0 +1,89 @@
+@import "media";
+.footer
+    &--left
+        position: relative
+        width: 180px
+        @media (max-width: $media-phone)
+                margin: 0 auto 10px
+        &__text
+            position: absolute
+            font-size: 0.8667em
+            color: #aaaaaa
+            margin: auto 0 0
+            bottom: 0
+            letter-spacing: 0.01em
+            @media (max-width: $media-phone)
+                left: 27px
+                top: 540px
+    &--list
+        margin: 0
+        @media (max-width: $media-phone)
+                margin: 0 auto 10px
+        &__item
+            width: max-content
+            margin-bottom: 25px
+            &:last-child
+                margin-bottom: 0
+            @media (max-width: $media-phone)
+                width: 160px
+                margin-bottom: 10px
+        &__link
+            font-size: 1em
+            letter-spacing: 0.15em
+            text-transform: uppercase
+            font-family: 'Cuprum', sans-serif
+            font-weight: 700
+            color: #325294
+            @media (max-width: $media-phone)
+                text-align: center
+            &_active
+                color: #b95a4d
+                cursor: default 
+    &--contacts
+        display: flex
+        flex-direction: column
+        width: max-content
+        @media (max-width: $media-phone)
+            margin: 10px auto
+        &__icon
+            color: #b95a4d
+            margin-right: 4px
+        &__text
+            font-size: 0.8667em
+            font-family: 'Lato', sans-serif
+            color: #313338
+            margin-bottom: 31px
+            line-height: 1.533em
+            @media (max-width: $media-phone)
+                margin-bottom: 10px
+    &--form
+        display: flex
+        flex-direction: column
+        @media (max-width: $media-phone)
+            margin: 10px auto 30px
+        &__input
+            width: 231px
+            height: 51px
+            background: transparent
+            border: 1px solid #e1eaef
+            color: black
+            font-size: 1em
+            font-family: 'Lato', sans-serif
+            margin-bottom: 10px
+            padding-left: 23px
+            &:placeholder
+                color: #989ea9
+                font-size: 1em
+                font-family: 'Lato', sans-serif
+        &__button
+            width: 230px
+            height: 50px
+            background: transparent
+            border: 2px solid #b95a4d
+            font-family: 'Cuprum', sans-serif
+            color: #325294
+            text-transform: uppercase
+            font-size: 1em
+            font-weight: 700
+            letter-spacing: 0.15em
+
