@@ -261,7 +261,7 @@ p {
 
 .wrapper--header {
   height: 646px;
-  background: url("../img/logistic-bg.jpg") no-repeat center top;
+  background: url("../img/logistic/logistic-bg.jpg") no-repeat center top;
   padding-top: 180px;
 }
 
@@ -284,7 +284,7 @@ p {
 }
 
 .wrapper--attention {
-  padding: 170px 0 130px;
+  padding: 60px 0 115px;
 }
 
 @media (max-width: 710px) {
@@ -347,7 +347,7 @@ p {
 .top--wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0 10px;
+  padding: 22px 0 13px;
   align-items: center;
   font-family: 'Lato', sans-serif;
 }
@@ -623,7 +623,7 @@ p {
 
 .transport--list {
   width: 100%;
-  padding: 52px;
+  padding: 52px 42px;
   background: #fbfdfe;
   display: flex;
   justify-content: space-between;
